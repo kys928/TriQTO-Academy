@@ -264,7 +264,7 @@ function LessonView({ lesson, initial, p, exit, open, onHelp, onAttempt, onAdvan
               focusHeading();
             }
           }} nextLabel={warmupIndex + 1 === warmup.questions.length ? "Return to lesson" : "Next warm-up"} />
-        <button className="text-button warmup-skip" onClick={() => begin("learn")}>Return to lesson <ArrowLeft size={16} /></button>
+        <button className="text-button warmup-skip" onClick={() => begin("learn")}>Back to lesson <ArrowLeft size={16} /></button>
       </div>
     </>}
     {stage === "practice" && <>
